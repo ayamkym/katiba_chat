@@ -1,0 +1,47 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+.envrc
+katiba_env/
+.katiba_env/
+.katiba_envrc
+katiba_env
+
+# Streamlit logs
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS Finder attributes
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependency directories
+# Uncomment if you have other dependency managers
+# poetry.lock
+# pipenv.lock
+# .mypy_cache/
+
+# Environment files
+.env
