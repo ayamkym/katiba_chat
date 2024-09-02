@@ -54,7 +54,7 @@ qa_prompt = ChatPromptTemplate.from_messages(
 
 # Initialize ChatGroq and QA Chain
 llm = ChatGroq(
-    model="llama3-8b-8192"
+    model="llama3-8b-8192",
     temperature=0
 ) if retriever else None
 
